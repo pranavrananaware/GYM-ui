@@ -1,0 +1,26 @@
+name: gym_management_app
+description: A simple gym management Flutter app.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add additional packages here if required in future development
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/squat.jpg
+    - assets/stretching.jpeg
+    - assets/plank.jpg
+    - assets/supplement.jpg
+    - assets/routines.jpg
+
